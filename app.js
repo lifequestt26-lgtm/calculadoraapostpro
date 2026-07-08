@@ -1,7 +1,7 @@
 // ATENÇÃO: Substitua os campos abaixo pelos seus dados do GitHub
 const USER = "SEU_USUARIO"; 
 const REPO = "calculadora-aposta-pro";
-const SENHA_FILE = "senha.txt";
+const SENHA_FILE = "2026";
 
 const SENHA_URL = `https://raw.githubusercontent.com/${USER}/${REPO}/main/${SENHA_FILE}?nocache=${new Date().getTime()}`;
 
