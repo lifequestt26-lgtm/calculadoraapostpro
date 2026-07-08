@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Calculadora</title>
+    <title>Calculadora de Apostas</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="login-screen">
-        <input type="password" id="password" placeholder="Senha">
-        <button onclick="checkPassword()">Entrar</button>
-    </div>
-    <div id="app-screen" style="display:none;">
-        <div id="result">Calculadora Liberada!</div>
+    <div id="app-screen">
+        <h2>Calculadora de Entradas</h2>
+        <input type="number" id="oddGol" placeholder="Odd Gol">
+        <input type="number" id="odd0x0" placeholder="Odd 0x0">
+        <button onclick="calcular()">Calcular</button>
+        <div id="result"></div>
     </div>
     <script src="app.js"></script>
 </body>
