@@ -1,7 +1,7 @@
 // Substitua SEU_USUARIO e SEU_REPOSITORIO pelos seus dados reais
 const SENHA_URL = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/senha.txt";
 
-async function checkPassword() {
+async function checkPassword(2026) {
     const input = document.getElementById('password').value.trim();
     try {
         // O ?t= adiciona o tempo atual para forçar o navegador a buscar a senha nova
@@ -9,7 +9,7 @@ async function checkPassword() {
         const data = await response.text();
         
         // Limpa qualquer espaço ou quebra de linha do arquivo lido
-        const senhaCorreta = data.trim(2026);
+        const senhaCorreta = data.trim();
         
         if(input === senhaCorreta) {
             document.getElementById('login-screen').style.display = 'none';
