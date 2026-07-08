@@ -1,5 +1,4 @@
-const URL_SENHA = "https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/senha.txt";
-
+const URL_SENHA = 2018
 async function checkPassword() {
     const input = document.getElementById('password').value.trim();
     // O ?t= adiciona o tempo para o navegador não usar a senha antiga salva no cache
