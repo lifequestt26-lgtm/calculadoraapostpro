@@ -1,4 +1,4 @@
-body { font-family: sans-serif; background: #121212; color: white; display: flex; justify-content: center; padding: 20px; }
-input { display: block; width: 100%; padding: 10px; margin: 10px 0; border-radius: 8px; border: none; }
-button { width: 100%; padding: 12px; background: #00e676; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; }
-#result { margin-top: 20px; background: #1e1e1e; padding: 15px; border-radius: 8px; }
+body { font-family: sans-serif; background: #121212; color: #fff; display: flex; justify-content: center; padding: 20px; }
+#login-screen, #app-screen { width: 100%; max-width: 400px; text-align: center; }
+input { width: 90%; padding: 15px; margin: 10px 0; border-radius: 8px; border: none; }
+button { width: 90%; padding: 15px; background: #00e676; border: none; border-radius: 8px; font-weight: bold; cursor: pointer; }
