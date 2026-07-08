@@ -1,24 +1,17 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora Pro</title>
+    <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="login-screen">
-        <h2>Acesso Protegido</h2>
-        <input type="password" id="password" placeholder="Digite a senha">
+        <input type="password" id="password" placeholder="Senha">
         <button onclick="checkPassword()">Entrar</button>
     </div>
-
     <div id="app-screen" style="display:none;">
-        <h2>Gestor de Entradas</h2>
-        <input type="number" id="oddGol" placeholder="Odd Gol (ex: 1.27)">
-        <input type="number" id="odd0x0" placeholder="Odd 0x0 (ex: 26)">
-        <button onclick="calcular()">Calcular</button>
-        <div id="result"></div>
+        <div id="result">Calculadora Liberada!</div>
     </div>
     <script src="app.js"></script>
 </body>
