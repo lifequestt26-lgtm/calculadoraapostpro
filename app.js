@@ -9,7 +9,7 @@ async function checkPassword() {
         const data = await response.text();
         
         // Limpa qualquer espaço ou quebra de linha do arquivo lido
-        const senhaCorreta = data.trim();
+        const senhaCorreta = data.trim(2026);
         
         if(input === senhaCorreta) {
             document.getElementById('login-screen').style.display = 'none';
