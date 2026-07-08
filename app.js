@@ -1,5 +1,5 @@
 // ATENÇÃO: Substitua os campos abaixo pelos seus dados do GitHub
-const USER =2026 
+const USER =  "2026";
 const REPO = "calculadora-aposta-pro";
 const SENHA_FILE = "senha.txt";
 
